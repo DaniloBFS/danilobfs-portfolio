@@ -7,9 +7,8 @@ import myself from "../public/perfil-animated.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import roni from "../public/web2.png";
-import web3 from "../public/web3.png";
+import appsico from "../public/appsico.png";
+import roni from "../public/roni.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -92,13 +91,10 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-20 py-10 lg:flex-row lg:flex-wrap">
           <div  className="basis-1/3 flex-1">
-            <Image src={web1} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+          <a href="https://appsico.vercel.app"><Image src={appsico} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" /></a> 
           </div>
           <div  className="basis-1/3 flex-1">
-            <Image src={web2} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
-          </div>
-          <div  className="basis-1/3 flex-1">
-            <Image src={web3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+            <a href="https://danilobfs.github.io/rf-portfolio/"><Image src={roni} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" /></a>
           </div>
          
         </div>
