@@ -15,8 +15,6 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import { useState } from "react";
 
-
-
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
@@ -34,7 +32,7 @@ export default function Home() {
         <div className='text-center p-10'>
           <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Danilo Borim</h2>
           <h3 className='text-2xl py-2 md:text-3xl'>Desenvolvedor Front-End</h3>
-          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>Freelancer ofertando serviços de programação. <br />Me contete e vamos nessa!</p>
+          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>Freelancer ofertando serviços de programação. <br />Me contate e vamos nessa!</p>
         </div>
         <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
             <AiFillLinkedin />
