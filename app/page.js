@@ -84,9 +84,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
+      <section className="mb-14">
         <div>
-          <h3 className="text-3xl py-1 dark:text-white">Portfólio</h3>
+          <h3 className="text-3xl py-1 dark:text-white">Projetos</h3>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">Eu venho estudando programação....</p>
         </div>
         <div className="flex flex-col gap-20 py-10 lg:flex-row lg:flex-wrap">
@@ -96,8 +96,14 @@ export default function Home() {
           <div  className="basis-1/3 flex-1">
             <a href="https://danilobfs.github.io/rf-portfolio/"><Image src={roni} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" /></a>
           </div>
-         
         </div>
+
+
+
+
+
+
+        
       </section>
     </div>      
     </main>
