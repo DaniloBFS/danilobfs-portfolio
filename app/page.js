@@ -84,6 +84,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      <section>
+        
+      </section>
+
       <section className="mb-14">
         <div>
           <h3 className="text-3xl py-1 dark:text-white">Projetos</h3>
@@ -97,8 +102,6 @@ export default function Home() {
             <a href="https://danilobfs.github.io/rf-portfolio/"><Image src={roni} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" /></a>
           </div>
         </div>
-
-        
       </section>
     </div>      
     </main>
