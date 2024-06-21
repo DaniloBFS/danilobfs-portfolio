@@ -104,7 +104,7 @@ export default function Home() {
         </div>
       </section> */}
 
-      <iframe height="900" width="100%" scrolling="no" title="CSS Blossoming Flowers at Magical Night " src="https://codepen.io/mdusmanansari/embed/BamepLe?default-tab=result&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      <iframe height="700" width="100%" scrolling="no" title="CSS Blossoming Flowers at Magical Night " src="https://codepen.io/mdusmanansari/embed/BamepLe?default-tab=result&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
         See the Pen <a href="https://codepen.io/mdusmanansari/pen/BamepLe">
         CSS Blossoming Flowers at Magical Night </a> by Md Usman Ansari (<a href="https://codepen.io/mdusmanansari">@mdusmanansari</a>)
         on <a href="https://codepen.io">CodePen</a>.
