@@ -17,7 +17,7 @@ export default function Home() {
     
     <main className={darkMode ? "dark" : ""}>
     <div className='bg-white px-10 md:px-20 lg:px40 dark:bg-gray-900'>
-      {/* <section className='min-h-screen'>
+      <section className='min-h-screen'>
         <nav className='font-mono py-10 mb-12 flex justify-between'>
           <h1 className='text-xl dark:text-white'>Danilo Borim</h1>
           <ul className='flex items-center'>
@@ -102,13 +102,7 @@ export default function Home() {
             <a href="https://danilobfs.github.io/rf-portfolio/"><Image src={roni} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" /></a>
           </div>
         </div>
-      </section> */}
-
-      <iframe height="700" width="100%" scrolling="no" title="CSS Blossoming Flowers at Magical Night " src="https://codepen.io/mdusmanansari/embed/BamepLe?default-tab=result&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-        See the Pen <a href="https://codepen.io/mdusmanansari/pen/BamepLe">
-        CSS Blossoming Flowers at Magical Night </a> by Md Usman Ansari (<a href="https://codepen.io/mdusmanansari">@mdusmanansari</a>)
-        on <a href="https://codepen.io">CodePen</a>.
-      </iframe>
+      </section>
       
     </div>      
     </main>
